@@ -2,8 +2,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
 
+First, go to project then choose development instance (environment). look up to the quick links section and copy your config
+
+add .env.local
+```bash
+NEXT_PUBLIC_CLERK_FRONTEND_API=
+NEXT_PUBLIC_CLERK_SIGN_IN=
+CLERK_API_KEY=
+```
+
+create some new user on https://accounts.xxx.dev/sign-in
+
+
+run the development server:
 ```bash
 npm run dev
 # or
